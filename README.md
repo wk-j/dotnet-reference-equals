@@ -1,5 +1,8 @@
 ## Reference Equals
 
+- [x] static readonly
+- [x] const
+
 ```csharp
 public static class HttpMethods {
         // We are intentionally using 'static readonly' here instead of 'const'.
