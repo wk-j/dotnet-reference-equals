@@ -16,6 +16,7 @@ namespace MyApp {
             Console.WriteLine(e3);
             Console.WriteLine(HeaderNames.IsAccept("accept"));
             Console.WriteLine(HeaderNames.IsAcceptConst("accept"));
+            Console.WriteLine(HeaderNames.X);
         }
     }
 }

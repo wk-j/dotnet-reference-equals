@@ -12,6 +12,8 @@ namespace MyLib {
         public static bool IsAcceptConst(string x) {
             return object.ReferenceEquals(AcceptConst, x) || StringComparer.OrdinalIgnoreCase.Equals(Accept, x);
         }
+
+        public static readonly string X = nameof(X);
     }
 
     class Program {
